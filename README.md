@@ -204,36 +204,14 @@ Final project/
 3. **Model Calibration**: Temperature scaling shows the model is well-calibrated
 4. **Overfitting**: Model shows minimal overfitting (gap < 2% between train/val accuracy)
 
-## ⚠️ Limitations
-
-- Rare attack classes (Infiltration, Heartbleed) have limited samples, affecting performance
-- Model trained on CICIDS2017 may need retraining for different network environments
-- Real-world deployment would require integration with network monitoring tools
-
-## 🔮 Future Improvements
-
-- Real-time streaming detection
-- Online learning for new attack patterns
-- Ensemble methods for improved robustness
-- Explainability features (SHAP, LIME)
-- Integration with SIEM systems
-- Anomaly detection for zero-day attacks
-
 ## 📚 References
 
 - CICIDS2017 Dataset: [Kaggle Dataset](https://www.kaggle.com/datasets/sweety18/cicids2017-full-dataset)
 - Canadian Institute for Cybersecurity: [CIC Dataset](https://www.unb.ca/cic/datasets/ids-2017.html)
 
-## 📝 License
-
-This project is part of academic coursework. Please refer to the dataset license for CICIDS2017 usage terms.
-
-## 👥 Authors
-
-ETA AI Final Project - Trustworthy AI for Cybersecurity
-
 ## 🙏 Acknowledgments
 
 - Canadian Institute for Cybersecurity for the CICIDS2017 dataset
 - Kaggle community for dataset hosting
+
 
